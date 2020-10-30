@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(assets/fonts/Nunito-Regular.ttf);
+}
+
+@import "colors";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-white {
+  background: #ffffff;
+  transition: background-color 0.3s ease-out;
+}
+
+.montserrat {
+  font-family: Montserrat;
+}
+
+.nunito {
+  font-family: Nunito;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.blue-text, .blue-text a {
+  color: #003766 !important;
+}
+
+.white-text, .white-text a {
+  color: #ffffff !important;
+}
+
+
+.blue-text a:hover {
+  color: #4285F4 !important;
+}
+
+.nav-options {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.white-wrapper {
+  /* height: 100vh !important; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.blue-wrapper {
+  background: #003766 no-repeat center center;
+  -webkit-flex-direction: ;
+  -ms-flex-direction: ;
+  flex-direction: ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.black-wrapper {
+  background: #000000 no-repeat center center;
+  -webkit-flex-direction: ;
+  -ms-flex-direction: ;
+  flex-direction: ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slogan {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.blue-light-text {
+  color: #3e5c75;
+}
+
+.btn-outline-dark {
+  border-color: #003766;
+  color: #003766;
+}
+
+.btn-outline-dark:hover{
+  background: #4285F4;
+  border-color: #4285F4;
+}
+
+.btn-outline-dark:active {
+  background: #003766 !important;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.bg-blue {
+  background: #003766;
+  transition: background-color 0.3s ease-in;
+}
+
+.mt-8 {
+  margin-top: 80px;
+}
+
+.mb-8 {
+  margin-bottom: 80px;
+}
+
+.mt-12 {
+  margin-top: 120px;
+}
+
+.mb-12 {
+  margin-bottom: 120px;
+}
+
+.ignore-nav {
+  margin-top: -77px;
+}
+
+.full-height {
+  height: calc(var(--vh, 1vh) * 100);
+}
